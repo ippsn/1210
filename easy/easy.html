@@ -31,8 +31,8 @@
         var i=Number(document.getElementById("img").src.match(/\d+(?=\.jpg)/g)[0]);
         const url = new URL(window.location.href);
 		const id = url.searchParams.get("id").match(/\d/g);
-        if(id[1]==i) tag.href="https://shizuku1116.github.io/make_curry/easy/result.html?id="+id.join("")+"0";
-        else tag.href="https://shizuku1116.github.io/make_curry/easy/result.html?id="+id.join("")+"1";
+        if(id[1]==i) tag.href="https://ippsn.github.io/1210/easy/result.html?id="+id.join("")+"0";
+        else tag.href="https://ippsn.github.io/1210/easy/result.html?id="+id.join("")+"1";
     }
 </script>
 <body class="body" onload="load()">
@@ -46,7 +46,7 @@
     <div class="box2">
         <img id="img" onclick="imgChange(this)">
     </div><br>
-    <a href="https://shizuku1116.github.io/make_curry/menu/start.html" id="menu" class="btn btn--green btn--radius" onclick="menu()">やめる</a>
+    <a href="https://ippsn.github.io/1210/menu/start.html" id="menu" class="btn btn--green btn--radius" onclick="menu()">やめる</a>
     <a href="" id="make" class="btn btn--brue btn--radius" onclick="make(this)">かんせい</a>
 </body>
 </html>
