@@ -1,0 +1,44 @@
+#result{
+    width: 800px;
+    max-width: 100%;
+
+}
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    font-size: 1.6rem;
+    position: relative; 
+    margin-left: 25px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    width: 9rem;
+    text-align: center;
+    text-decoration:none;
+}
+a.btn--brue {
+    color: #fff;
+    background-color: #7349ff;
+    font-size: 1.6rem;
+    position: relative; 
+    margin-left: 25px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    width: 9rem;
+    text-align: center;
+    text-decoration:none;
+}
+a.btn--green {
+    color: #fff;
+    background-color: #47ff4a;
+    font-size: 1.6rem;
+    position: relative; 
+    margin-left: 25px;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    width: 9rem;
+    text-align: center;
+    text-decoration:none;
+}
+a.btn--radius {
+    border-radius: 100vh;
+}

@@ -1,0 +1,41 @@
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    font-size: 1.6rem;
+    position: absolute; 
+    left: 50%;
+    top: 60%;
+    width: 9rem;
+    text-decoration:none;
+    margin: 0 auto;
+}
+a.btn--radius {
+    border-radius: 100vh;
+}
+
+a.btn--brue {
+    color: #fff;
+    background-color: #4d5bec;
+    font-size: 1.6rem;
+    position: absolute; 
+    margin: 0 auto;
+    left:50%;
+    top: 75%;
+    width: 9rem;
+    text-decoration:none;
+}
+a.btn--radius {
+    border-radius: 100vh;
+}
+
+#body{
+    background-image: url("../menu_img2.jpg");
+    background-size: cover;
+    width:50%;
+    text-align: center;
+}
+
+#title{
+    position:absolute;
+    height: 300px;
+}

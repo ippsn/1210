@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>とらにゃんこのかずあわせ</title>
+    <link rel="stylesheet" href="./css/mobile.css" type="text/css" media="screen and (max-width: 899px)">
+    <link rel="stylesheet" href="./css/pc.css" type="text/css" media="screen and (min-width: 900px)">
+    <script>
+        function send(){
+            var id=(Math.floor(Math.random()*3)).toString();
+            for(var d=0;d<4;d++) id+=(Math.floor(Math.random()*4)).toString();
+            document.getElementById("hard").href='https://shizuku1116.github.io/make_curry/?id='+id;
+        }
+
+        function sendEasy(){
+            var id=(Math.floor(Math.random()*9)).toString();
+            id+=(Math.floor(Math.random()*3)+1).toString();
+            document.getElementById("easy").href='https://shizuku1116.github.io/make_curry/easy/easy.html?id='+id;
+        }
+    </script>
+</head>
+<body id="body">
+    <img src="title.png" id="title">
+    <a href="" class="btn btn--orange btn--radius" id="easy" onclick="sendEasy()">かんたん</a>
+    <a href="" class="btn btn--brue btn--radius" onclick="send()" id="hard">むずかしい</a>
+</body>
+</html>
