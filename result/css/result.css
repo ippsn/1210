@@ -14,6 +14,7 @@ a.btn--orange {
     width: 9rem;
     text-align: center;
     text-decoration:none;
+    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 a.btn--brue {
     color: #fff;
@@ -26,6 +27,7 @@ a.btn--brue {
     width: 9rem;
     text-align: center;
     text-decoration:none;
+    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 a.btn--green {
     color: #fff;
@@ -38,6 +40,7 @@ a.btn--green {
     width: 9rem;
     text-align: center;
     text-decoration:none;
+    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 a.btn--radius {
     border-radius: 100vh;
