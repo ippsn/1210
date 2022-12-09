@@ -8,6 +8,7 @@
     border-radius: 12px 0 12px 0; /*角丸（左上12px 右上0 右下12px 左下0）*/
     font-weight: bold; /*フォント太字*/
     font-size:larger;
+    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 .box1 { /*【div】囲み枠部分*/
     position: relative; /*必須*/
@@ -28,6 +29,7 @@
     border-radius: 12px 0 12px 0; /*角丸（左上12px 右上0 右下12px 左下0）*/
     font-weight: bold; /*フォント太字*/
     font-size:larger;
+    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 .box2 { /*【div】囲み枠部分*/
     position: relative; /*必須*/
@@ -49,7 +51,6 @@ a.btn--brue {
     width: 9rem;
     text-align: center;
     text-decoration:none;
-    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 a.btn--green {
     color: #fff;
@@ -62,10 +63,10 @@ a.btn--green {
     width: 9rem;
     text-align: center;
     text-decoration:none;
-    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 a.btn--radius {
     border-radius: 100vh;
+    font-family: "meiryo","ヒラギノ角ゴ ProN W6","HiraMinProN-W3";
 }
 
 .body h{
